@@ -23,6 +23,7 @@
     * Will request access tokens using Client Credential flow and pass them to above resource server for validation. It will wait 60 seconds inbetween request and try again. Token lifetime is set to 5 min per authorization server settings in ./Okta TF. Upon the 5th request to the above resource the request will fail, request a new access token from the authorization server, and then request the resource again.
     * Client will console log the returned info from the Resource Server if the access token is valid
 
+![Alt Text](./OktaOauthOverview.png)
 
 <h2> How do I get set up?</h2>
 
